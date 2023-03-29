@@ -1,0 +1,328 @@
+.img-logo {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  padding: 1px !important;
+  margin: 1px !important;
+
+}
+
+.navbar-brand {
+  line-height: 50px !important;
+}
+
+.font-big {
+  font-size: 2em !important;
+  white-space: 10px !important
+}
+
+.icons {
+  display: flex;
+  font-size: 1.5em;
+  justify-content: right !important;
+  padding-right: 5px !important;
+  text-align: right !important;
+  font-family: inherit !important;
+  color: #333;
+  align-items: right !important
+}
+
+.icons i {
+  text-align: right !important;
+  padding: 2px !important;
+  margin: 7px !important
+}
+
+
+/* Nav Bar */
+.custom_navbar ul {
+  padding: 0
+}
+
+.custom_navbar li {
+  list-style: none
+}
+
+.custom_navbar li a {
+  height: 50px;
+  padding: 0 20px;
+  color: #777;
+  font-family: 'Kosugi Maru', sans-serif !important;
+  font-weight: 500;
+  line-height: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+.custom_navbar li a:hover,
+.custom_navbar li a.active {
+  color: #fff;
+  font-weight: 400;
+  background: #42445A;
+  transition: all 1s ease-in-out !important
+}
+
+
+.custom_navbar {
+  position: fixed !important;
+  right: -100px;
+  opacity: 0;
+  width: 300px;
+  display: none !important;
+  height: 300vh;
+  transition: all 1s ease-out !important
+}
+
+.custom_navbar ul {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  text-align: center;
+}
+
+.custom_navbar li a {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.custom_navbar.active {
+  right: 0;
+  width: 300px !important;
+  height: 300vh !important;
+  z-index: 35 !important;
+  opacity: 1 !important;
+  display: flex !important;
+  flex-direction: column;
+  animation-name: navbar !important;
+  animation-duration: 0.5s;
+  background: #fff !important
+}
+
+@keyframes navbar {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    opacity: 0.95;
+  }
+
+  100% {
+    width: 300px;
+    opacity: 1
+  }
+}
+
+/* Hamburger */
+
+.menu-toggle {
+  position: relative;
+  display: flex !important;
+  float: right !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 50px !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  font-size: 24px !important;
+  background: transparent;
+  padding-right: 0;
+}
+
+.menu-toggle {
+  display: block;
+}
+
+.banner-img {
+  width: 100% !important;
+  height: 50%;
+  background-size: cover !important;
+  object-fit: cover !important
+}
+
+.banner .banner-content {
+  position: absolute;
+  top: 90px;
+  font-weight: bolder;
+  left: 10px;
+  color: #fff;
+}
+
+.banner-text {
+
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #f1f1f1
+}
+
+
+.button1 {
+  position: relative;
+  padding: 25px;
+  margin: 20px;
+  height: 20px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 200;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 40px;
+  background: #42445A;
+  box-shadow: -2px -2px 8px rgba(200, 200, 200, 1),
+    -2px -2px 12px rgba(200, 200, 200, 0.5),
+    inset 2px 2px 4px rgba(200, 200, 200, 0.1),
+    2px 2px 8px rgba(200, 200, 200, 0.15);
+  z-index: 12
+}
+
+.button1 span {
+  position: absolute;
+  right: 7px;
+  left: 7px;
+  bottom: 7px;
+  top: 7px;
+  line-height: 20px !important;
+  text-align: center !important
+}
+
+.button1:hover {
+  box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(255, 255, 255, 0.15),
+}
+
+.button1:hover span {
+  display: inline-block;
+  transform: scale(0.98)
+}
+
+.img-product {
+  position: relative;
+  padding: 25px !important;
+  margin: auto !important;
+  text-align: center !important;
+  width: 250px !important;
+  height: 300px !important;
+  object-fit: cover !important;
+  background-size: cover !important;
+
+}
+
+.newArrivalsBx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px auto
+}
+
+/* Trending Section */
+.trending_container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 5px !important;
+  padding: 10px !important;
+  width: 100vw;
+  height: 50vh;
+}
+
+.trendingBx {
+  width: 50%;
+  height: 100%;
+  max-width: 480px;
+  max-height: 810px;
+  padding: 15px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important
+}
+
+.trendingImg {
+  width: 100%;
+  height: 90%;
+  object-fit: cover !important;
+  background-size: cover !important
+}
+
+.trendingBx .trending_content {
+  top: 75% !important;
+  left: 25px
+}
+
+.featured_content {
+  text-align: center;
+}
+
+.more_container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 5px !important;
+  padding: 10px !important;
+  width: 100vw;
+  height: 50vh
+}
+
+/*  Products */
+.product_container {
+  padding: 15px;
+  margin: 2px;
+  display: grid !important;
+  grid-auto-flow: dense !important;
+  grid-template-columns: repeat(1fr, 1fr) !important;
+  grid-template-rows: minmax(100px, auto);
+  grid-gap: 15px;
+}
+
+.productBx {
+  place-items: center;
+  text-align: center;
+}
+
+
+.productBx:nth-child(even) {
+  grid-column-start: 2;
+  grid-column-end: 3
+}
+
+.productImg {
+  width: 50vw;
+  height: 50vh;
+  background-size: cover !important;
+  object-fit: cover !important
+}
+
+.productPage-img {
+  width: 100%;
+  height: 55%;
+  object-fit: cover !important;
+  background-size: cover !important
+}
+
+.color-yellow-bg {
+  color: yellow;
+  background: yellow
+}
+
+.color-white-bg {
+  color: #f1f1f1;
+  background: #f1f1f1
+}
+
+.color-black-bg {
+  color: #333;
+  background: #333
+}
+
+.qty_input {
+  width: 30px
+}

@@ -1,0 +1,103 @@
+/*and they are not the intended recipient you are not the intended recipient you are not the intended recipient you are not the intended recipient you are not the intended recipient you are not the intended recipient you are not the intended recipient you*/   
+
+
+/* Google Fonts */   
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Julius+Sans+One&family=Kosugi+Maru&family=Montserrat&display=swap');
+/* Global Variables */
+:root{
+  --galada: 'Galada',cursive;
+  --julius: 'Julius Sans One',sans-serif;
+  --kosugi: 'Kosugi Maru',sans-serif;
+  --mont: 'Montserrat',sans-serif;
+  --primary: #fff;
+  --secondary:#000;
+  /*overflow-x: hidden!important*/
+}
+
+/*  Global Classes */    
+.primary-bg{
+  background: var(--primary)!important
+}
+.secondary-bg{
+  background: var(--secondary)!important
+}
+.secondary{
+  color: #42445A !important
+}
+.font-10{
+  font-size: 10px !important
+}
+.font-12{
+  font-size: 12px!important
+}
+.font-14{
+  font-size: 14px!important
+}
+.font-16{
+  font-size: 16px!important
+}
+.font-18{
+  font-size: 18px!important
+}
+.font-20{
+  font-size: 20px !important
+}
+.font-huge{
+  font-size: 10em 
+}
+.font-300{
+  font-weight: 300!important
+}
+.font-500{
+  font-weight: 500!important
+}
+.font-700{
+  font-weight: 700!important
+}
+.font-900{
+  font-weight: 900!important
+}
+.font-1000{
+  font-weight: 1000!important
+}
+.mont{
+  font-family: var(--mont)!important
+}
+.galada{
+  font-family: var(--galada)!important
+}
+.julius{
+  font-family: var(--julius)!important
+}
+.kosugi{
+  font-family: var(--kosugi)!important
+}
+.text-green{
+  color: #42445A!important
+}
+a{
+  text-decoration: none!important
+}
+.heading1{
+  font-size: 2em;
+  font-weight: bolder;
+  font-family: var(--mont)
+}
+.heading2{
+  font-size: 1.5em;
+  font-family: var(--julius);
+  font-weight: bold
+}
+.heading3{
+  font-size: 1em;
+  font-family: var(--julius)!important;
+  font-weight: 300
+}
+.small-text{
+  font-size: 0.8em;
+  font-family: var(--galada);
+  font-weight: 100!important
+}
+.white{
+  color: #fff!important
+}

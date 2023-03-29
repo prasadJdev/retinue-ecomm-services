@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.heading1 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.form-input-feild {
+  width: 100%;
+  padding: 2rem;
+  min-height: 5rem;
+  position: relative;
+  margin: 5px;
+}
+
+.form-input-feild2 {
+  width: 100%;
+  padding: 2rem;
+  min-height: 5rem;
+  position: relative;
+  margin: 5px;
+}
+
+.form-input-feild2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+  border-radius: 0% 15px 0% 15px / 0% 15px 0% 15px;
+  -webkit-box-shadow: 5px 5px 5px black 5px 5px 5px black 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black 5px 5px 5px black 5px 5px 5px black;
+}
+
+.form-input-feild::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+  border-radius: 15px 0% 15px 0% / 15px 0% 15px 0%;
+  -webkit-box-shadow: 5px 5px 5px black 5px 5px 5px black 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black 5px 5px 5px black 5px 5px 5px black;
+}
+
+.form-input-feild-label {
+  font-weight: 300;
+  font-size: 1rem !important;
+}
+
+/* Shop Details */
+.feild {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+.shopImg {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+}
+
+.and{
+  margin-bottom: 15px 
+}
+/*# sourceMappingURL=main.min.css.map */
